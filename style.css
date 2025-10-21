@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(236 242 248);
+}
+
+body {
+  margin: 0;
+  background-color: rgb(13 17 23);
+  font-family: system-ui;
+}
+
+#header {
+  position: fixed;
+  top: 0%;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(22 27 34);
+}
+
+#title {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav img {
+  display: flex;
+  width: 40px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.image-div {
+  display: flex;
+  box-sizing: border-box;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 0;
+}
+
+.table-div {
+  box-sizing: border-box;
+  flex-basis: 50%;
+  padding: 0 0 0 5px;
+}
+
+#my-picture {
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(137 146 155);
+  border-radius: 9999px;
+}
+
+table {
+  padding: 10px;
+  border: 1px solid rgb(137 146 155);
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+th {
+  padding: 0 10px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  width: 180px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(33 38 45);
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#lessons-learned,
+#lessons-to-learn {
+  width: 230px;
+  padding: 10px 10px 10px 40px;
+  border-radius: 20px;
+  background-color: rgb(33 38 45);
+}
+
+li {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+#article-div {
+  flex-basis: 50%;
+  padding-right: 5px;
+}
+
+#aside-div {
+  flex-basis: 50%;
+  padding-left: 5px;
+}
+
+article,
+aside {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(33 38 45);
+}
+
+#footer {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(22 27 34);
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
